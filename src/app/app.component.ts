@@ -1,6 +1,6 @@
-import {Component, Inject, LOCALE_ID, OnInit, PLATFORM_ID} from '@angular/core';
+import {Component, Inject, LOCALE_ID, OnInit} from '@angular/core';
 import {NavigationStart, Router} from '@angular/router';
-import {Meta, Title} from '@angular/platform-browser';
+import {MaterialModule} from './material/material.module';
 
 @Component({
   selector: 'app-root',

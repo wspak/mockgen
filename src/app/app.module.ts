@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {PagesModule} from './pages/pages.module';
-import {HttpClientModule} from '@angular/common/http';
+import { PagesModule } from './pages/pages.module';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,8 @@ import { AppComponent } from './app.component';
   imports: [
     PagesModule,
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
