@@ -4,6 +4,7 @@ import { PagesModule } from './pages/pages.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
+import { MiscModule } from './misc/misc.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MaterialModule } from './material/material.module';
     PagesModule,
     BrowserModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
+      MiscModule
   ],
   providers: [],
   bootstrap: [AppComponent]
